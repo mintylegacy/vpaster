@@ -5169,7 +5169,7 @@ function library:textbox(properties)
 			or "type here...",
 		default = properties.default,
 		clear_on_focus = properties.clearonfocus or false,
-		flag = properties.flag or "SET ME NIGGA",
+		flag = properties.flag or "...",
 		callback = properties.callback or function() end,
 	}
 
